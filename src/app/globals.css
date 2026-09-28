@@ -1,1 +1,58 @@
 @import "tailwindcss";
+
+@theme {
+  --color-background: #0D0D0D;
+  --color-surface: #151515;
+  --color-primary-text: #E8E3D8;
+  --color-secondary-text: #85827B;
+  --color-accent: #A44735;
+  --color-border: #292929;
+  
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-noto-serif-malayalam), "Noto Serif Malayalam", "Manjari", "Gayathri", serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-primary-text);
+    font-family: var(--font-sans);
+    position: relative;
+    overflow-x: hidden;
+  }
+}
+
+/* Subtle Film Grain */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Vignette */
+.vignette-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 40;
+  background: radial-gradient(circle, rgba(13,13,13,0) 40%, rgba(13,13,13,0.8) 100%);
+}
+
+@keyframes slow-pan {
+  0% { transform: scale(1.05) translate(0, 0); }
+  100% { transform: scale(1.1) translate(-2%, 2%); }
+}
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
