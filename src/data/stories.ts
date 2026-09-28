@@ -18,6 +18,6 @@ export const stories: Story[] = [
     genre: "SHORT FICTION · DRAMA",
     readingTime: "8–10 MIN READ",
     description: "\"ചില കഥകൾ അവസാനിച്ച ശേഷമാണ് ശരിക്കും തുടങ്ങുന്നത്...\"",
-    coverImage: "/stories/elna-v2.jpg",
+    coverImage: "/stories/elna-poster.jpg",
   }
 ];

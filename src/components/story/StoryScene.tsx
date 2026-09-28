@@ -14,13 +14,13 @@ export default function StoryScene({ children, backgroundImage }: StorySceneProp
           src={backgroundImage} 
           alt="Scene background"
           fill
-          className="object-cover opacity-25 md:opacity-30 transition-opacity duration-1000"
+          className="object-cover opacity-50 md:opacity-60 brightness-[1.05] transition-opacity duration-1000"
           sizes="100vw"
           priority
         />
         {/* Cinematic gradients: top, center, bottom falloff */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/75 to-background"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_40%,_var(--color-background)_100%)]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/40 to-background/90"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_50%,_var(--color-background)_100%)] opacity-80"></div>
       </div>
 
       {/* Narrative content layer */}

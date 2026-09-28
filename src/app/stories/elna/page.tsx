@@ -9,8 +9,8 @@ import VoiceOver from '@/components/story/VoiceOver';
 export default function ElnaStoryPage() {
   return (
     <StoryReader storyTitle="എൽന · ELNA">
-      <StoryScene backgroundImage="/stories/elna.jpg">
-        
+      <StoryScene backgroundImage="/stories/scene-1-ground.jpg">
+
         {/* PHASE 1: Setup */}
 
         <StoryText>
@@ -82,7 +82,7 @@ export default function ElnaStoryPage() {
         </Dialogue>
 
         <Dialogue speaker="എൽന">
-          "ന കളിച്ചോ... നന്നായി?"
+          "നീ കളിച്ചോ... നന്നായി?"
         </Dialogue>
 
         <StoryText>
@@ -150,7 +150,7 @@ export default function ElnaStoryPage() {
       </StoryScene>
 
       {/* SCENE 2: Walking home along the canal */}
-      <StoryScene backgroundImage="/stories/elna-v2.jpg">
+      <StoryScene backgroundImage="/stories/scene-2-canal.jpg">
 
         <StoryText>
           ഗ്രൗണ്ടിൽ നിന്ന് ഇറങ്ങി ഞങ്ങൾ വീട്ടിലേക്കുള്ള നടത്തം തുടങ്ങി.
@@ -215,7 +215,7 @@ export default function ElnaStoryPage() {
       </StoryScene>
 
       {/* SCENE 3: Rainy classroom day — the beach invitation */}
-      <StoryScene backgroundImage="/about/desk.jpg">
+      <StoryScene backgroundImage="/stories/scene-3-rain.jpg">
 
         <StoryText>
           പുറത്ത് നല്ല മഴ.
@@ -254,7 +254,7 @@ export default function ElnaStoryPage() {
         </VoiceOver>
 
         <VoiceOver>
-          "ഉച്ചക്കേരത്തെ മഴയും..."
+          "ഉച്ചനേരത്തെ മഴയും..."
         </VoiceOver>
 
         <VoiceOver>
@@ -596,7 +596,7 @@ export default function ElnaStoryPage() {
       </StoryScene>
 
       {/* SCENE 4: Bus stand → Beach → Rain → Goodbye */}
-      <StoryScene backgroundImage="/stories/elna-v2.jpg">
+      <StoryScene backgroundImage="/stories/scene-4-teashop.jpg">
 
         <StoryText>
           ജോയൽ നേരത്തെ എത്തിയിട്ടുണ്ട്.
@@ -1403,7 +1403,7 @@ export default function ElnaStoryPage() {
         </StoryText>
 
         <StoryText>
-          മുറ്റുമുണ്ടായിരുന്ന എല്ലാവരും ഞങ്ങളെ നോക്കുന്നുണ്ടായിരുന്നു.
+          ചുറ്റുമുള്ള എല്ലാവരും ഞങ്ങളെ നോക്കുന്നുണ്ടായിരുന്നു.
         </StoryText>
 
         <StoryText>
@@ -1483,7 +1483,7 @@ export default function ElnaStoryPage() {
         </StoryText>
 
         <StoryText>
-          ചെറിയൊരു വീട്ടിൽ ആരോക്കെയോ വന്ന ശബ്ദം കേട്ടു.
+          ചെറിയൊരു വീട്ടിൽ ആരൊക്കെയോ വന്ന ശബ്ദം കേട്ടു.
         </StoryText>
 
         <StoryText>
@@ -1615,7 +1615,7 @@ export default function ElnaStoryPage() {
         </Dialogue>
 
         <Dialogue speaker="അമ്മ">
-          "രാവിലെ തന്നെ അമ്മാവിയുടെ വീട്ടിലേക്ക് പോയി."
+          "രാവിലെ തന്നെ അമ്മായിയുടെ വീട്ടിലേക്ക് പോയി."
         </Dialogue>
 
         <StoryText>
@@ -1711,7 +1711,7 @@ export default function ElnaStoryPage() {
         </StoryText>
 
         <StoryText>
-          പിന്നടുള്ള ദിവസങ്ങൾ തിരക്കിലായിരുന്നു.
+          പിന്നീടുള്ള ദിവസങ്ങൾ തിരക്കിലായിരുന്നു.
         </StoryText>
 
         <StoryText>
@@ -1771,7 +1771,7 @@ export default function ElnaStoryPage() {
         </VoiceOver>
 
         <StoryText>
-          ജോയലിന് സ്കൂളിൽ യാത്രയയ്പ്പ്.
+          ജോയലിന് സ്കൂളിൽ യാത്രയയപ്പ്.
         </StoryText>
 
         <StoryText>
@@ -1967,7 +1967,7 @@ export default function ElnaStoryPage() {
         </StoryText>
 
         <StoryText>
-          മുറ്റുമുള്ള ശബ്ദങ്ങളെല്ലാം മങ്ങിപ്പോകുന്നു.
+          ചുറ്റുമുള്ള ശബ്ദങ്ങളെല്ലാം മങ്ങിപ്പോകുന്നു.
         </StoryText>
 
         <StoryText>
@@ -2256,15 +2256,15 @@ export default function ElnaStoryPage() {
             "ചില കഥകൾ അവസാനിച്ച ശേഷമാണ് ശരിക്കും തുടങ്ങുന്നത്..."
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-            <Link 
-              href="/#stories" 
+            <Link
+              href="/#stories"
               className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-border/80 text-secondary-text hover:text-primary-text hover:border-accent transition-all duration-300 text-xs tracking-wider"
             >
               <ArrowLeft size={16} />
               <span>മറ്റു കഥകൾ</span>
             </Link>
-            <Link 
-              href="/about" 
+            <Link
+              href="/about"
               className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-primary-text text-background hover:bg-accent hover:text-white transition-all duration-300 text-xs tracking-wider"
             >
               <span>എഴുത്തുകാരനെക്കുറിച്ച്</span>

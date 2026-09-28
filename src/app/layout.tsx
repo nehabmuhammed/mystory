@@ -16,6 +16,11 @@ const notoSerifMalayalam = Noto_Serif_Malayalam({
 export const metadata: Metadata = {
   title: "പണ്ട് പണ്ട് ഒരിടത്ത്… | Malayalam Stories",
   description: "Stories written in Malayalam. Some imagined. Some remembered.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
