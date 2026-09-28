@@ -478,7 +478,7 @@ export default function ElnaStoryPage() {
         </VoiceOver>
 
         <VoiceOver>
-          "സാമ്പത്തികമായി ബുദ്ധിമുട്ടുള്ള വീട്ടിൽ നിന്നിട്ടും..."
+          "സാമ്പത്തികമായി ബുദ്ധിമുട്ടില്ലാത്ത വീട്ടിൽ നിന്നിട്ടും..."
         </VoiceOver>
 
         <VoiceOver>
@@ -794,10 +794,6 @@ export default function ElnaStoryPage() {
           "ആരോടും അധികം അടുക്കാത്തത്."
         </Dialogue>
 
-        <StoryText>
-          ജോയൽ മിണ്ടുന്നു.
-        </StoryText>
-
         <Dialogue speaker="ജോയൽ">
           "അതൊക്കെ നിന്റെ പ്രശ്നമല്ലേ."
         </Dialogue>
@@ -847,7 +843,7 @@ export default function ElnaStoryPage() {
         </Dialogue>
 
         <StoryText>
-          എൽന പുറത്തേക്ക് നോക്കി ചെറുതായി മിണ്ടുന്നു.
+          എൽന പുറത്തേക്ക് നോക്കി
         </StoryText>
 
         <VoiceOver>
@@ -991,7 +987,7 @@ export default function ElnaStoryPage() {
         </StoryText>
 
         <StoryText>
-          ആദ്യം ചെറിയ മാറ്റൽ.
+          ആദ്യം ചെറിയ ചാറ്റൽ
         </StoryText>
 
         <StoryText>
@@ -1135,7 +1131,7 @@ export default function ElnaStoryPage() {
         </StoryText>
 
         <StoryText>
-          മഴ കുറച്ചൊന്ന് ശമിച്ചിരുന്നു.
+          മഴ കുറച്ചൊന്ന് കുറഞ്ഞുവരികയായിരുന്നു.
         </StoryText>
 
         <StoryText>
@@ -1483,7 +1479,7 @@ export default function ElnaStoryPage() {
         </StoryText>
 
         <StoryText>
-          ചെറിയൊരു വീട്ടിൽ ആരൊക്കെയോ വന്ന ശബ്ദം കേട്ടു.
+          വീട്ടിൽ ആരൊക്കെയോ വന്ന ശബ്ദം കേട്ടു.
         </StoryText>
 
         <StoryText>
